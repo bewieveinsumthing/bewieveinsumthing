@@ -18,30 +18,31 @@
       font-family: monospace;
       width: 100%;
       height: 100vh;
-      overflow: hidden;
 
       display: flex;
       justify-content: center;
       align-items: center;
-    }
 
-    .container {
       text-align: center;
-      width: 100%;
       padding: 20px;
     }
 
+    .container {
+      max-width: 1000px;
+    }
+
     .title {
-      font-size: clamp(42px, 7vw, 120px);
+      font-size: clamp(24px, 3vw, 52px);
       letter-spacing: 0.12em;
-      margin-bottom: 70px;
+      margin-bottom: 28px;
       text-transform: uppercase;
+      font-weight: normal;
     }
 
     .handle {
-      font-size: clamp(24px, 3vw, 52px);
-      margin-bottom: 45px;
-      opacity: 0.95;
+      font-size: clamp(14px, 1.3vw, 22px);
+      margin-bottom: 20px;
+      opacity: 0.9;
     }
 
     .handle a {
@@ -50,12 +51,12 @@
     }
 
     .contract {
-      font-size: clamp(16px, 1.8vw, 34px);
-      opacity: 0.85;
+      font-size: clamp(11px, 0.95vw, 18px);
+      opacity: 0.7;
       word-break: break-word;
-      max-width: 95%;
+      line-height: 1.6;
+      max-width: 90vw;
       margin: 0 auto;
-      line-height: 1.5;
     }
   </style>
 </head>
